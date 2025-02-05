@@ -1,0 +1,71 @@
+/* Home Page Layout */
+.home-page {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Vertically center the content */
+  align-items: center; /* Horizontally center the content */
+  height: 100vh;
+  background-image: url('C:\\Users\\acer\\Desktop\\leaf_disease\\frontend\\public\\background2.jpeg'); /* Adjust your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  display: none; /* Hide the sidebar for now if centering is priority */
+}
+
+/* Main content */
+.content {
+  padding: 20px;
+  text-align: center;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional for readability */
+  border-radius: 10px; /* Optional: Adds rounded edges */
+  width: 80%; /* Optional: Limit content width */
+  max-width: 600px; /* Restrict max width */
+}
+
+.content h1 {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Scroll Notification */
+.scroll-notification {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ff9800;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  z-index: 999;
+}
+
+/* Start Button */
+.start-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.start-button:hover {
+  background-color: #388E3C;
+}

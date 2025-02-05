@@ -1,0 +1,27 @@
+{
+    "Healthy": {
+        "description": "The plant is healthy and shows no signs of disease.",
+        "symptoms": "No symptoms, the plant is in good condition.",
+        "causes": "No known causes as the plant is healthy."
+    },
+    "Mosaic": {
+        "description": "The plant exhibits a mosaic pattern on the leaves, often indicating viral infection.",
+        "symptoms": "Mosaic pattern on leaves, which appears as patches of light and dark green.",
+        "causes": "Viral infection, often spread by insects or contaminated tools."
+    },
+    "RedRot": {
+        "description": "RedRot causes the plant tissues to rot, leading to reduced yield and quality.",
+        "symptoms": "Rotting or browning of plant tissues, especially at the base of the stem.",
+        "causes": "Bacterial or fungal infection, poor drainage, or overwatering."
+    },
+    "Rust": {
+        "description": "Rust diseases are characterized by reddish-brown pustules on leaves, caused by fungal infections.",
+        "symptoms": "Small, reddish-brown pustules on the leaves, often accompanied by yellowing.",
+        "causes": "Fungal infection, often spread by wind or rain."
+    },
+    "Yellow": {
+        "description": "Yellowing of leaves can indicate nutrient deficiencies or stress conditions.",
+        "symptoms": "Leaves turn yellow, often starting from the tips and moving inwards.",
+        "causes": "Nutrient deficiencies, especially nitrogen, or environmental stress."
+    }
+}

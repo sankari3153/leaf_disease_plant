@@ -1,0 +1,94 @@
+/* General styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container styling */
+.predictor-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #f9f9f9;
+}
+
+/* Header styling */
+.header {
+    background-color: #8fbc8f; /* Change this to your desired header background color */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/* File input and button section */
+.file-input-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.file-input {
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-button:disabled {
+    background-color: #ccc;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Results styling */
+.results-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.result-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button-group button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.button-group button:hover {
+    background-color: #45a049;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
